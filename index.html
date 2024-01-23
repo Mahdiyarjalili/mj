@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="Icon.ico" />
+
+    <title>MJ Production</title>
+    
+  
+</head>
+
+<body background="Bilder/Ergebnis.jpg" class="background">
+  
+  <img src="Bilder/Logo.png" class="logo" >
+    <div id="prog" style=" left:0px; bottom:0px; position: fixed; width: 100%; background-color: #ffffff; z-index: 99999; height: 100%; overflow: hidden;"> 
+        <img style="  
+    width:20vhw;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 35vh;
+    display: block;
+        "  src="PreLoad.gif" alt="Ein animiertes GIF"> </div>
+
+ <div class="menudiv">
+  <ul>
+   <li><a href="index.html">home page</a></li>
+   <li><a href="aboutUs.html">about us</a></li>
+   <li><a href="projects.html">projects</a>
+  
+    <ul>
+     <li><a href="typePro.html"> &nbsp Type Pro</a></li>
+     <li><a href="pingpong.html">Ping Pong</a></li>
+     
+    </ul>
+  
+  
+  </li>
+   <li><a href="contact.html">contact</a></li>
+   </ul>
+  </div>
+
+   
+    <h1>MJ Production</h1>
+      <p class="presents">presents... </p>
+      <h2>welcome to our site</h2>
+    <h2><br>Our projects within the framework
+       of data protection laws will soon be available for download on this website<h2>
+     <h3><br> <br>If you have any questions or opinions, you can click Contact Us and
+       reach out to us</h3>
+    <h4>We warmly welcome your ideas and opinions </h4>
+
+    <h5>See you later </h5>
+    
+
+    <div class="footerContainer" style="margin-left: 0; margin-right: 0; ">
+      <footer class="footer">
+        <a href="contact.html"> Contact</a>
+        <a href="projects.html"> Projects</a> 
+        <a href="impressum.html"> Impressum</a>
+        <p class="rights">Copyright © 2024 MJ Production all rights reserved.</p>
+    </footer
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // Fügen Sie die Klasse 'active' hinzu, um den Fade-Effekt auszulösen
+          document.querySelector('.fade-in').classList.add('active');
+        });
+      </script>
+     <script>
+        $(window).on('load', function() {
+          // Verzögerung in Millisekunden (z.B. 3000 für 3 Sekunden)
+          var verzögerung = 1000;
+      
+          // Verzögerung und Fade Out hinzufügen
+          setTimeout(function() {
+            $("#prog").fadeOut();
+          }, verzögerung);
+        });
+      </script>
+</body>
+
+</html>
+
