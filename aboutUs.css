@@ -1,55 +1,48 @@
 h1{
-    font-family:Lato-Hairline ; font-weight:600;
-    opacity: .8;
+    color: #000000;
+    font-family:Gilroy ; 
+    opacity: .5;
     font-size: 5em;
     text-align: center;
     display: block; 
     margin-top: 10vh;
 }
-h2{
-    font-family:Lato-Hairline ; 
-    opacity: .8;
-    font-size: 3em;
-    line-height: .2em;
-    margin-left: .3em;
-    display: block; 
-    
-    
-}
-.absatz{
-    font-family:Lato-Hairline ; font-weight:600;
-    opacity: .8;
-    font-size: 2em;
-    line-height: 1.4em;
-    margin-left: .3em;
-    display: block; 
-    
-}
-.gruß
+
+
+
+.aboutme
 {
-    text-align: center;
-     font-family:Lato-Hairline ;
-     font-size: 2em ;
-     font-weight:600;
-      line-height: 1.4em
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 2vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
 }
-h3{
-    font-family:Lato-Hairline ; font-weight:600;
-    opacity: .8;
-    font-size: 50px;
-    text-align: center;
-    display: block; 
-    
+.text1
+{
+    color: #000000;
+    font-family: Gilroy;
+        font-size: 1.28vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        line-height: 4vw;
 }
-h4{
-    font-family:Lato-Hairline ; font-weight:600;
-    opacity: .8;
-    font-size: 50px;
-    text-align: center;
-    display: block; 
-    padding-bottom: 50vh;
-    
+.text2
+{
+    color: #000000;
+    font-family: Gilroy;
+        font-size: 1.5vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        line-height: 2.5vw;
 }
+
+
+
+
+
+
+
 ul {
     list-style-type: none;
     margin:0;
@@ -179,6 +172,7 @@ ul li ul a:hover{
 
 
 }
+
 @font-face {
     font-family: 'Cinzel-SemiBold'; 
     src: url('Fonts/Cinzel-SemiBold.ttf') format('truetype');
@@ -190,6 +184,22 @@ ul li ul a:hover{
 @font-face {
     font-family: 'Lato-Hairline'; 
     src: url('Fonts/Lato-Hairline.ttf') format('truetype');
+         
+    /* Füge hier weitere Formate hinzu, falls vorhanden */
+    font-weight:100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy'; 
+    src: url('Fonts/Gilroy-Light.ttf') format('truetype');
+         
+    /* Füge hier weitere Formate hinzu, falls vorhanden */
+    font-weight:100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rights'; 
+    src: url('Fonts/Cabin-VariableFont_wdth\,wght.ttf') format('truetype');
          
     /* Füge hier weitere Formate hinzu, falls vorhanden */
     font-weight:100;
@@ -281,7 +291,7 @@ footer a:hover{
 .rights
 {
     color: rgba(221, 221, 221, 0.849);
-    font-family: Rights;
+    font-family: Gilroy;
     font-size: 1vw;
     opacity: .7;
     transition: all 1.5s;
@@ -290,8 +300,7 @@ footer a:hover{
 .rights:hover
 {
     color: rgba(255, 255, 255, 0.767);
-    font-family: Rights;
-    opacity: 1;
+       opacity: 1;
 }
 
   
@@ -486,7 +495,7 @@ body::-webkit-scrollbar {
 
 h1{
     font-family:Lato-Hairline ;
-     font-weight: 900;
+     
     opacity: .8;
     font-size: 8vw;
     text-align: center;
@@ -494,52 +503,33 @@ h1{
 line-height: 200%;
     display: block; 
 }
-h2{
-font-family:Lato-Hairline ; font-weight:600;
-    opacity: .8;
-    font-size: 6em;
-    line-height: .6em;
-    margin-left: .001em;
-    display: block; 
-}
-
-.absatz{
-    font-family:Lato-Hairline ; font-weight:600;
-    opacity: .8;
-    font-size: 4em;
-    line-height: 1.4em;
-    margin-left: .3em;
-    display: block; 
-    
-}
-.gruß
+.aboutme
 {
-    text-align: center;
-     font-family:Lato-Hairline ;
-     font-size: 4em ;
-     font-weight:600;
-      line-height: 1.4em
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 5.5vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+.text1
+{
+    color: #000000;
+    font-family: Gilroy;
+        font-size: 4vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        line-height: 6vw;
+}
+.text2
+{
+    color: #000000;
+    font-family: Gilroy;
+        font-size: 4vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        line-height: 5.5vw;
 }
 
-h3{
-    font-family:Lato-Hairline ; font-weight:600;
-    opacity: .8;
-    font-size: 30px;
-    text-align: center;
-    display: block; 
-    
-}
-
-
-h4{
-    font-family:Lato-Hairline ; font-weight:600;
-    opacity: .8;
-    font-size: 4vw;
-    text-align: center;
-    display: block; 
-    padding-bottom: 70vh;
-    
-}
 
 
 
@@ -600,10 +590,6 @@ footer a:hover{
     font-family: Rights;
     opacity: 1;
 }
-
-
-
-
 
 
 

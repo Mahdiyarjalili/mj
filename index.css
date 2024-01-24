@@ -91,8 +91,9 @@ footer a:hover{
 }
 .rights
 {
+    font-family: Gilroy;
     color: rgba(221, 221, 221, 0.849);
-    font-family: Rights;
+    
     font-size: 1vw;
     opacity: .7;
     transition: all 1.5s;
@@ -101,7 +102,7 @@ footer a:hover{
 .rights:hover
 {
     color: rgba(255, 255, 255, 0.767);
-    font-family: Rights;
+    
     opacity: 1;
 }
 
@@ -582,7 +583,7 @@ footer a:hover{
 .rights
 {
     color: rgba(221, 221, 221, 0.849);
-    font-family: Rights;
+    font-family: Gilroy;
     font-size: 2.3vw;
     opacity: .7;
     transition: all 1.5s;
@@ -591,7 +592,6 @@ footer a:hover{
 .rights:hover
 {
     color: rgba(255, 255, 255, 0.767);
-    font-family: Rights;
     opacity: 1;
 }
 }
